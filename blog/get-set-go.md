@@ -2,7 +2,7 @@
 draft: false
 title: "Get set Go!"
 description: "I wanted a simple language to build CLI applications, anything but Bash. Why not Bash? Because it's only good for small, maintainable scripts with minimal external dependencies beyond what GNU/Linux offers by default. Managing anything more complex than that is a real pain. The real struggle begins when you have to handle arrays, JSON data, and similar tasks. Bash is great for automation scripts, but not ideal for building full CLI applications. Sure, no one is stopping you from making a CLI or TUI app with Bash, but good luck mate, I'll pass on that!"
-publishDate: 2024-04-08
+publishDate: 2024-09-15
 tags: ["cli", "bash", "go", "python" ]
 image: {
 	src: "https://ik.imagekit.io/rayshold/my-blog/posts/gopher.jpg?updatedAt=1726417090682",
@@ -10,29 +10,34 @@ image: {
 }
 ---
 
-I wanted a simple language to build CLI applications, anything but Bash. Why not Bash? Because it's only good for small, maintainable scripts with minimal external dependencies beyond what GNU/Linux offers by default. Managing anything more complex than that is a real pain. The real struggle begins when you have to handle arrays, JSON data, and similar tasks. Bash is great for automation scripts, but not ideal for building full CLI applications. Sure, no one is stopping you from making a CLI or TUI app with Bash, but good luck mate, I'll pass on that!
+I wanted a simple language to build CLI applications, anything but Bash. Why not bash? Because it was only good for small, maintainable scripts with minimal external dependencies beyond that GNU/Linux offered by default. But try scaling up to something complex, and it's a mess, managing packages across different managers is a headache. Arrays, JSON, or anything remotely data-heavy? Bash laughs in your face. Bash is perfect for automation scripts, but full CLI or TUI apps? I’m out.
 
-So after Bash, I considered Python, which is a nice language. People say it's slow, and while that's not wrong, it's still fast enough for non-system-critical tasks. Python is easy to learn, and I picked up the basics long ago, so it seemed like a good option. But nope. When it comes to local development, Python can be a hassle. First, you have to set up a virtual environment (venv), then install packages, and it’s not even version-controlled unless you create a requirements.txt file. What if I forget to do that? The next time something breaks, I might not even have the requirements.txt file to fix it.
+## What about python?
 
-If that’s not a little inconvenient enough, you also have to manually activate or source the venv from the root directory to access the packages installed by pip for that specific project. I mean from a JS dev perspective, what the fuck? At first, it might not seem like a big deal, but when you’re working on a large project, constantly navigating to the directory and repeating those steps gets boring and pita fast.
+I was this close to sticking with Python, But, honestly, I was itching to try something new, and Python’s got a few quirks that nudged me toward Go. For one, Python’s interpreted nature makes it slower than compiled languages like Rust or Go, particularly for performance-critical tasks, and Go’s compiled speed is just snappier. Then there’s the Global Interpreter Lock—Python’s GIL can choke concurrency, while Go’s goroutines make concurrent programming a breeze. Also, Python’s package management, even with `uv`, still feels like wrangling a spaceship to brew tea compared to Go’s dead-simple `go mod`.
 
-I'm a JavaScript developer, and I write TypeScript more often than JavaScript. So, considering that, if I break my requirements into two major parts, the programming language I needed had to be simple to set up, and it also had to have a type system similar to TypeScript. The only valid answer was Go. I knew Python has third-party tools like `mypy`, `pytype`, and `pylint`, but based on my requirements at the time, Python just wasn't a good fit.
+I wanted to learn more about compiled and low-level languages without jumping in too deep, Go's a sweet spot for that. It’s lean, fast, modern, and gets out of the way so you can build. I still love Python’s flexibility and expressiveness, and I’ll probably bounce back to it for the next quick script that pops into my head—but for now, Go’s got my attention.
 
-Well those were good excuses to get started with `go`, but one more reason why I chose go is [_charm.sh](https://charm.sh), and easy & insanely fast compilation, all you have to do `go build` & then `go install` and done. You don't have to deal with something like `pyinstaller`, why would you? heh. No hate against python but GO meets all my requirements.  
+## Enter Go
 
-## What was my goal? Learn another language? 
+I'm hooked for a few reasons, like [Charm.sh](https://charm.sh/) and it's ridiculously fast compilation. Run `go build`, then `go install`, and you're done, no wrestling with `pyinstaller` or similar tools. Go's setup isn't as simple as Bash's "create a `main.sh` and start bashing keyboard," but the tradeoff feels right.
 
+## What was my goal? Learn another language?
 
 Absolutely not. I wanted to build a CLI app that fetches subtitles from certain sites and saves them. Not bulk scraping—just an easy way to do it from the terminal. Why? Because there are some movies that aren't available on any OTT platform, and when you download them, subtitles aren’t always included. Sure, you can visit websites and click the download button, but no thanks—I love my terminal. So I built [subcli](https://github.com/ImRayy/subcli), it only downloads subtitles, not movies, and I don't endorse piracy unless absolutely necessary.
 
-**Features** 
+**Features**
+
 - Search Movies, uses search engine, so accurate results
 - Filter by language
-- List multiple subtitles, uploaded and rating also visible 
+- List multiple subtitles, uploaded and rating also visible
+
+**Irony**
 
 My second project was/is a ToDo application I call [toodles](https://github.com/ImRayy/toodles), a name inspired by a clock in Micky mouse cartoon series. It's quite feature rich unlike average ToDo applications, though many of my planned features are upcoming since it's a new project, but I plan to add them at some point. When I build any application let it be a any reinventing the wheel project, I try to make sure to add some values and good looks to it, here 2 screenshots...
 
 **Features**
+
 - CRUD operations odiously
 - Set priority
 - Do, Undo or Remove a task
@@ -41,11 +46,14 @@ My second project was/is a ToDo application I call [toodles](https://github.com/
 
 ![1](https://ik.imagekit.io/rayshold/projects/toodles/1.png)
 
-I'm satisfied with how they turned out, though I'm pretty sure I'll be disappointed with the design after some time, I may or may not update later on, but I think that's a good thing, it means I'm improving my skills and recognizing areas for growth. That's the whole fucking point.
+I'm happy with how they turned out, though I suspect I’ll grow dissatisfied with the design over time. I might update it later, or I might not, but I see that as a positive sign. It means I’m improving and learning to recognize areas where I can grow, which is exactly the goal.
 
+## Trust the Vibe, Not the Forums
+
+I could deep-dive into research, dissecting every language’s pain points until I’m paralyzed by choice. Or I could ask a senior dev, “Yo, I’m feeling Go,” and they’d probably roast it because they’re married to JavaScript, Rust or whatever. That’s a one-way ticket to second-guessing myself and missing out on a dope experience. So, I skipped the overthinking and dived into what felt exciting. There’s that saying, “Don’t jump to a new language until you’re cashing checks with it,” and yeah, it’s solid advice. But who says you can’t flirt with a new language on the weekends? Every language has its own flavor and solves problems in its own way. Trying them out feels like test-driving a new framework, it’s not about ditching your main squeeze; it’s about seeing what else is out there and what problems it solves.
 
 ## Conclusion
 
-I love Go and will definitely use it to build more apps. The overall developer experience, from setup to build and install, is fantastic. I believe there should always be a clear target when learning something new. In this case, I wanted to build something, and I chose Go. Sure, I could’ve used JavaScript, but I didn't, because my goal is to improve to be good, or even the best if possible, and gain as much experience as I can.
+I’ve fallen in love with Go, and I’m excited to build more apps with it. The developer experience is top-notch. Setting up, building, and deploying feels seamless and intuitive. When I learn something new, I always set a clear goal to stay focused. This time, I wanted to create a project, and Go was my choice. JavaScript was an option, but I chose Go to push my skills further, aiming to grow as a developer and gain hands-on experience with a powerful language.
 
-Everyone roasts JS for being bad, and as someone who was limited to the JS environment, I never understood those criticisms. But after trying Go, I now see the difference. I've learned more about best practices, how to handle errors properly, and how to use functions more efficiently.
+Coming from a JavaScript-heavy background, I never quite understood the criticism JS gets in the dev community. But after diving into Go, the contrast is striking. Go has opened my eyes to cleaner coding practices, robust error handling, and more effective ways to structure functions. It’s been a game-changer, helping me write code that’s not just functional but thoughtfully designed.
