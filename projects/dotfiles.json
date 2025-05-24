@@ -1,0 +1,9 @@
+{
+  "title": "Dotfiles",
+  "description": "Not exactly a project but it's something that I worked on from scratch from beginning, It's something that made me interested in programming in general. To make things functional and look good.",
+  "image": "https://camo.githubusercontent.com/d204259d1ab4a317734ae4770ff677e4431d197a18e002174175cb6c79f67329/68747470733a2f2f696b2e696d6167656b69742e696f2f72617973686f6c642f646f7466696c65732f5f636f6e6669672f687970722f687970726c616e642d6361747070756363696e2d6d6f6368612e776562703f7570646174656441743d31373036323839363431363631",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/dotfiles",
+  "createdAt": "2022-08-13T00:00:00Z",
+  "stack": ["lua", "css", "sass", "toml", "archLinux"]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Expense Tracker",
+  "description": "Most expense tracker apps are either available for Android or iOS, with no good web app offering half the decent features. So I decided to get my hands dirty and do something instead of coping. Back then, I was only interested in getting the project started as soon as possible, hence not catchy name.",
+  "image": "https://ik.imagekit.io/rayshold/gallery/placeholder.webp?updatedAt=1748072501357",
+  "status": "WIP",
+  "createdAt": "2024-09-15T00:00:00Z",
+  "stack": ["nextjs", "typeScript", "supabase", "tailwindcss"],
+  "features": [
+    "Add accounts and track income/expenses like basic budgeting apps.",
+    "Include goals, debts, and budget plans to simplify financial management.",
+    "Provide detailed analytics based on daily, monthly, or yearly data.",
+    "Send and receive real-time friend requests.",
+    "Split expenses in groups using either Friends mode or Quick Share mode.",
+    "Enable real-time settlements with options to send or accept settlement requests.",
+    "Feature a responsive design, primarily built with an AMOLED design language.",
+    "Offer extensive icon support through the Iconify API."
+  ],
+  "highlights": [
+    {
+      "icon": "tabler:layout-2",
+      "color": "green",
+      "title": "Sleek UI & UX",
+      "description": "Built with Tailwind CSS, Shadcn UI & Framer motion which offers fast, asthetic & fluid experience."
+    },
+    {
+      "icon": "tabler:server",
+      "color": "pink",
+      "title": "Secured Backend",
+      "description": "Postgres and Auth by supabase ensures database security and fast delivery and realtime broadcast."
+    },
+    {
+      "icon": "tabler:code",
+      "color": "blue",
+      "title": "TypeScript & Maintainability",
+      "description": "Written in TypeScript, using Zod, Zustand, and Tailwind utilities for enhanced maintainability and developer experience."
+    },
+    {
+      "icon": "ri:open-source-line",
+      "color": "cyan",
+      "title": "Open Source",
+      "description": "This project is open source under AGPL-3.0 license, do whatever you want with it but keep it open source."
+    },
+    {
+      "icon": "tabler:home-check",
+      "color": "yellow",
+      "title": "Self-Host",
+      "description": "Don't trust our servers? Self-host it yourself. Make your data truly yours, not ours to share or control."
+    }
+  ]
+}

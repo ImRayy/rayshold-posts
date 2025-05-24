@@ -1,0 +1,10 @@
+{
+  "title": "Small Useful Scripts",
+  "description": "Again, not a project but worth including. Time to time I make new scripts to make my daily life somewhat easier like printing helper, kdeconnect-cli wrapper, sort images (like put mobile and desktop images to their respective folder), convert images in bulk etc... Like it's not impossible to find similar tools online but I prefer not to throw my hands just to accomplish some jobs.",
+  "image": "https://ik.imagekit.io/rayshold/gallery/wallhaven-xe5eel.png?updatedAt=1747974463756",
+  "imagesourceUrl": "https://wallhaven.cc/w/xe5eel",
+  "sourceUrl": "https://github.com/ImRayy/scripts",
+  "createdAt": "2023-07-25T00:00:00Z",
+  "status": "COMPLETE",
+  "stack": ["bash", "python"]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Nothing UI Newtab",
+  "description": "There's a good project called Material You New Tab which is basically a NewTab extension for chromium, it was good but not followed my liking. So impressed by newly brought Nothing Phone's UI known as NOTHING UI I made something my own.",
+  "image": "https://ik.imagekit.io/rayshold/projects/nothing-ui-new-tab/2025-05-23-091821_hyprshot.png?updatedAt=1747972243866",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/nothing-ui-newtab",
+  "createdAt": "2024-12-05T00:00:00Z",
+  "stack": ["react", "vite", "tailwindcss"],
+  "features": [
+    "Add, edit, and remove website links as desired.",
+    "Include a macOS-like dock for apps to enhance accessibility.",
+    "Display real-time weather information using the OpenWeatherMap API.",
+    "Toggle unwanted features such as docs, app drawer, AI tools, and more.",
+    "Add, edit, or remove search engines and AI tools with ease.",
+    "Adjust the wallpaper-changing interval for widgets.",
+    "Choose between monochrome or colorful icons for a personalized look.",
+    "Set custom icons for each saved website link.",
+    "Switch between digital and analog clock faces.",
+    "Toggle blur and monochrome effects for images.",
+    "Switch between Fahrenheit and Celsius temperature scales.",
+    "Toggle location name visibility for privacy.",
+    "Import and export data as JSON files.",
+    "Switch between light and dark themes for optimal viewing."
+  ],
+  "highlights": [
+    {
+      "icon": "tabler:brand-tailwind",
+      "color": "cyan",
+      "title": "Sleek UI & UX",
+      "description": "Built with Tailwind CSS, Framer motion, radix ui primitives & headless which offers fast & fluid experience."
+    },
+    {
+      "icon": "material-symbols:domino-mask-outline",
+      "color": "pink",
+      "title": "Secured Data",
+      "description": "Your data is not stored anywhere except your browser, you have 100% freedom what you do with it. Keep or delete."
+    },
+    {
+      "icon": "tabler:code",
+      "color": "blue",
+      "title": "TypeScript & Maintainability",
+      "description": "Written in TypeScript, Zustand, and Tailwind utilities for enhanced maintainability and developer experience."
+    },
+    {
+      "icon": "ri:open-source-line",
+      "color": "cyan",
+      "title": "Open Source",
+      "description": "This project is open source under AGPL-3.0 license, do whatever you want with it but keep it open source."
+    }
+  ]
+}

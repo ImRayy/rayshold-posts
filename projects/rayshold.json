@@ -1,0 +1,36 @@
+{
+  "title": "This Website",
+  "description": "This is something that almost every other developer makes, yes a goddamn portfolio. Well this is not a portfolio, this started as a blog website and later I named Rayshold to keep things related to me.",
+  "image": "https://ik.imagekit.io/rayshold/gallery/placeholder.webp?updatedAt=1748072501357",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/rayshold",
+  "createdAt": "2024-06-16T00:00:00Z",
+  "hostedUrl": "https://rayshold.vercel.app/",
+  "stack": ["astro", "react", "typeScript", "tailwindcss"],
+  "highlights": [
+    {
+      "icon": "tabler:rosette-discount-check",
+      "color": "green",
+      "title": "Optimized SEO",
+      "description": "Structured metadata, Open Graph images, and canonical URLs ensure top-tier discoverability, scoring 100% in Lighthouse SEO."
+    },
+    {
+      "icon": "hugeicons:zap",
+      "color": "yellow",
+      "title": "Blazing-Fast Blog",
+      "description": "Craft content in Markdown and MDX with React components, designed for speed, scoring 95+ in Lighthouse performance."
+    },
+    {
+      "icon": "ph:sparkle",
+      "color": "cyan",
+      "title": "Silky-Smooth Experience",
+      "description": "Built with Tailwind CSS and minimal CSS animations, delivering seamless performance, even on low-end devices."
+    },
+    {
+      "icon": "ri:open-source-line",
+      "color": "fuchsia",
+      "title": "Open Source",
+      "description": "This project is open source under the MIT license, so you can do whatever you want with it as the license permits."
+    }
+  ]
+}

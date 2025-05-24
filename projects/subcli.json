@@ -1,0 +1,14 @@
+{
+  "title": "Sub Cli",
+  "description": "A subtitle downloader, which uses startpage as search-engine underneath to tolerate typos. Show details such as rating and filter by language while downloading.",
+  "image": "https://ik.imagekit.io/rayshold/projects/subcli/2025-05-23-093422_subcli.jpeg?updatedAt=1747973335515",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/subcli",
+  "createdAt": "2024-06-10T00:00:00Z",
+  "stack": ["golang", "bubbleTea"],
+  "features": [
+    "Underneath it's using certain search engine for typo tolerance",
+    "Filter subtitles by language",
+    "See who uploaded subtitle, and overall ratings for better judgments"
+  ]
+}

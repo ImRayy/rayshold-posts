@@ -1,0 +1,18 @@
+{
+  "title": "Tsuika",
+  "description": "Tsuika name represents append in Japanese. And this is a generic name so apprently I can add more features such notes, todos, GitHub repos and keep track of new version and notify users",
+  "image": "https://ik.imagekit.io/rayshold/gallery/placeholder.webp?updatedAt=1748072501357",
+  "createdAt": "2025-05-07T00:00:00Z",
+  "status": "WIP",
+  "stack": [
+    "react",
+    "typeScript",
+    "hono",
+    "tanStack",
+    "bun",
+    "vite",
+    "drizzle",
+    "neon",
+    "betterAuth"
+  ]
+}

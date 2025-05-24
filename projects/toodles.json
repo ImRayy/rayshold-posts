@@ -1,0 +1,34 @@
+{
+  "title": "Toodles",
+  "description": "TUI tasks applications made with GO and BubbleTea, this is probably my second project in Go after sub-cli",
+  "image": "https://ik.imagekit.io/rayshold/projects/toodles/2025-05-23-093617_toodles.jpeg?updatedAt=1747973412597",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/toodles",
+  "createdAt": "2024-09-10T00:00:00Z",
+  "stack": ["golang", "bubbleTea"],
+  "highlights": [
+    {
+      "icon": "logos:gopher",
+      "title": "Go & Type Safety",
+      "description": "Written in Go, it offers robust type safety and a seamless developer experience, with blazing-fast build and testing performance."
+    },
+    {
+      "icon": "fluent-emoji:bubble-tea",
+      "title": "UI & UX",
+      "description": "Built with Charm.sh tools like Bubble Tea and Lipgloss, it delivers a polished and visually appealing terminal app experience."
+    },
+    {
+      "icon": "tabler:database",
+      "color": "rose",
+      "title": "Database & Security",
+      "description": "Powered by SQLite, it stores everything in a single file, ensuring offline functionality by default and keeping your data securely local."
+    }
+  ],
+  "features": [
+    "Generate an autocompletion script for the specified shell.",
+    "Edit tasks by their ID.",
+    "List all tasks, categorized by completed, pending, or canceled status.",
+    "List all tasks, excluding completed ones.",
+    "More features planned, but currently limited by time constraints."
+  ]
+}

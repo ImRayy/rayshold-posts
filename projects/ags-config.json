@@ -1,0 +1,32 @@
+{
+  "title": "Ags Config",
+  "description": "This project was a significant undertaking, as I designed and built most components from scratch. I recently rewrote the entire system, transitioning from AGS 1.0 to AGS 2.0. The new version adopts a more React-like architecture, moving away from the previous Flutter-like approach.",
+  "image": "https://ik.imagekit.io/rayshold/dotfiles/hyprland-gruvbox-02.png?updatedAt=1736180697858",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/ags-dots",
+  "createdAt": "2024-07-24T00:00:00Z",
+  "stack": ["ags", "typeScript", "bash", "bun", "sass"],
+  "features": [
+    "Includes essential widgets such as a status bar, notification panel, quick settings, and MPRIS support.",
+    "Features night light, color picker, screen recording, random wallpaper, and quick-access screenshot tools.",
+    "Provides a minimal calendar widget for simple date tracking.",
+    "Offers a Flatpak widget to track updates, running every 30 minutes.",
+    "Customize the color scheme by creating and importing a simple SCSS file as per the provided instructions.",
+    "Tracks the percentage of the day that has passed.",
+    "Customize core features by editing the `options.ts` file."
+  ],
+  "highlights": [
+    {
+      "icon": "tabler:code",
+      "color": "blue",
+      "title": "TypeScript & Maintainability",
+      "description": "Written in TypeScript for better structure, readability, and long-term maintainability."
+    },
+    {
+      "icon": "tabler:layout-2",
+      "color": "green",
+      "title": "GTK Like UI",
+      "description": "I think it looks good enough regarding GTK-3.0 CSS limitations"
+    }
+  ]
+}

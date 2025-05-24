@@ -1,0 +1,53 @@
+{
+  "title": "NixOS Dotfiles",
+  "description": "What can I say? I just love my dotfiles. NixOS is something I picked up a year ago because I prefer a stable distro, till date I use same config but few fixes along the way",
+  "image": "https://ik.imagekit.io/rayshold/dotfiles/hyprland-gruvbox-02.png?updatedAt=1736180697858",
+  "status": "COMPLETE",
+  "sourceUrl": "https://github.com/ImRayy/nixos-dots",
+  "createdAt": "2024-01-12T00:00:00Z",
+  "stack": ["nix", "bash", "lua", "sass", "css"],
+  "highlights": [
+    {
+      "icon": "devicon:nixos",
+      "color": "green",
+      "title": "Maintainability",
+      "description": "Claims to be 100% written in Nix per GitHub, not really. Tho the setup remains straightforward, making it noob friendly."
+    },
+    {
+      "icon": "tabler:snowflake",
+      "color": "green",
+      "title": "Flakes",
+      "description": "Nix calls it experimental, but honestly, it’s stable as hell. The entire config is built on Flakes, so version control is a breeze."
+    },
+    {
+      "icon": "tabler:smart-home",
+      "color": "pink",
+      "title": "Home Manager",
+      "description": "Thanks to Home Manager, managing all configs with a consistent color scheme and desired settings is extremely easy."
+    },
+    {
+      "icon": "tabler:color-swatch",
+      "color": "violet",
+      "title": "Stylix",
+      "description": "The awesome Stylix makes color scheme management a breeze, declare it once and apply it everywhere with ease."
+    }
+  ],
+  "features": [
+    "Wayland used by default",
+    "Defaults to Fish, Kitty, Starship, AGS, Rofi, and Hyprland with NVIDIA support.",
+    "Includes all core configurations for Nix users, including Flakes, Home Manager, and more.",
+    "Implements code splitting across approximately 51 `.nix` files for modularity.",
+    "Utilizes Home Manager for nearly all configurations, except for Neovim.",
+    "Manages color schemes effortlessly with the Stylix tool.",
+    "Supports Catppuccin Mocha, Gruvbox, Rosé Pine, or custom color scheme files.",
+    "Customizes color scheme, default terminal, top bar, and window manager via a simple `options.nix` file.",
+    "Features Plymouth for a sleek boot animation.",
+    "Includes a custom GRUB theme.",
+    "Uses TUI Greet as the default login/display manager.",
+    "Employs Hyprlock for the lock screen.",
+    "Manages idle states with Hypridle.",
+    "Sets Yazi as the default terminal-based file manager.",
+    "Uses MPV as the default video player.",
+    "Covers additional details I might have overlooked. As a picky software enthusiast, the default setup should satisfy most users."
+  ]
+}
