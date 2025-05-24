@@ -11,8 +11,9 @@ image: {
 }
 ---
 
-> [note]
-> This blog is no longer relevant, as many of us have switched to [lazy.nvim](https://github.com/folke/lazy.nvim), which offers several advantages over [packer.nvim](https://github.com/wbthomason/packer.nvim). Error handling is much better, and there's no need for manual safety checks before initializing plugins. Lazy.nvim comes with built-in lazy loading and encourages better practices. If you're interested, you can check out my [neovim config](https://github.com/ImRayy/my-neovim-config), which I built from scratch using lazy.nvim.
+:::note
+This blog is no longer relevant, as many of us have switched to [lazy.nvim](https://github.com/folke/lazy.nvim), which offers several advantages over [packer.nvim](https://github.com/wbthomason/packer.nvim). Error handling is much better, and there's no need for manual safety checks before initializing plugins. Lazy.nvim comes with built-in lazy loading and encourages better practices. If you're interested, you can check out my [Neovim Config](https://github.com/ImRayy/my-neovim-config) which I built from scratch using lazy.nvim.
+:::
 
 I presume every Linux user aware of NeoVim, basically a fork of Vim with lua integration to make it more customizable. Well you can customize NeoVim without lua but then there would be no point of using NeoVim.
 
@@ -25,23 +26,23 @@ Before following this or any guide first take a look at [lua-guide](https://neov
 ```
 ├── init.lua
 ├── lua
-│   ├── core
-│   │   ├── bootstrap.lua
-│   │   ├── keybindings.lua
-│   │   ├── kittymargin.lua
-│   │   ├── lazyload.lua
-│   │   └── settings.lua
-│   └── plugins
-│       ├── configs
-│       │   ├── alpha.lua
-│       │   ├── bufferline.lua
-│       │   ├── lspzero.lua
-│       │   ├── neo-tree.lua
-│       │   ├── notify.lua
-│       │   ├── others.lua
-│       │   ├── statusline.lua
-│       │   └── treesitter.lua
-│       └── init.lua
+│  ├── core
+│  │  ├── bootstrap.lua
+│  │  ├── keybindings.lua
+│  │  ├── kittymargin.lua
+│  │  ├── lazyload.lua
+│  │  └── settings.lua
+│  └── plugins
+│      ├── configs
+│      │   ├── alpha.lua
+│      │   ├── bufferline.lua
+│      │   ├── lspzero.lua
+│      │   ├── neo-tree.lua
+│      │   ├── notify.lua
+│      │   ├── others.lua
+│      │   ├── statusline.lua
+│      │   └── treesitter.lua
+│      └── init.lua
 └── README.md
 ```
 
