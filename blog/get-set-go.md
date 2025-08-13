@@ -5,7 +5,7 @@ description: "I wanted a simple language to build CLI applications, anything but
 publishDate: 2024-09-15
 tags: ["cli", "bash", "go", "python" ]
 image: {
-	src: "https://ik.imagekit.io/rayshold/my-blog/posts/gopher.jpg?updatedAt=1726417090682",
+	src: "https://ik.imagekit.io/rayshold/my-blog/posts/gopher.webp?updatedAt=1755117733352",
 	alt: "Gopher",
 }
 ---
