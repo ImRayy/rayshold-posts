@@ -4,7 +4,7 @@
   "image": "https://ik.imagekit.io/rayshold/my-blog/posts/quickshell.webp?updatedAt=1755613062567",
   "status": "WIP",
   "createdAt": "2025-07-04T00:00:00Z",
-  "stack": ["qml", "qtquick", "javascript"],
+  "stack": ["qml", "javascript"],
   "features": [
     "Wallpaper picker with Material Design color theme support",
     "Notification popups with smooth, sleek animations",
