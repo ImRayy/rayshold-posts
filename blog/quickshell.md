@@ -3,7 +3,8 @@ title: "Quickshell"
 description: "Quickshell is a widget wrapper for Qt, likely the first of its kind, while most others stick with GTK, specifically GTK3. It's a toolkit for building widgets, primarily targeting Wayland for window manager users."
 publishDate: 2025-08-19
 draft: false
-tags: ["foss", "react", "tanstack", "better-auth", "hono", "bun"]
+tags:
+  ["qt", "gtk", "qml", "javascript", "linux", "hyprland", "ags", "quickshell"]
 image:
   {
     src: "https://ik.imagekit.io/rayshold/my-blog/posts/quickshell.webp?updatedAt=1755613062567",
