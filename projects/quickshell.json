@@ -1,0 +1,18 @@
+{
+  "title": "Quickshell Widgets",
+  "description": "Minimal design Qt based widgets for Hyprland, with material you support & enough animations to make it look professional enough",
+  "image": "https://ik.imagekit.io/rayshold/my-blog/posts/quickshell.webp?updatedAt=1755613062567",
+  "status": "WIP",
+  "createdAt": "2025-07-04T00:00:00Z",
+  "stack": ["qml", "qtquick", "javascript"],
+  "features": [
+    "Wallpaper picker with Material Design color theme support",
+    "Notification popups with smooth, sleek animations",
+    "Minimal top status bar with essential features",
+    "OSD slider for seamless volume control",
+    "MPRIS player widget",
+    "App and clipboard launcher",
+    "Power menu with confirmation prompt",
+    "Priority Vim motion support"
+  ]
+}
